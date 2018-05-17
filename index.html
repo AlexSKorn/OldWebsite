@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
   <meta charset="UTF-8">
   <title>Alex Korn Website</title>
-
-
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-
       <link rel="stylesheet" href="css/style.css">
-
-
 </head>
-
 <body>
-
   <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200|Ubuntu" rel="stylesheet">
 </head>
 <!--- Navigation Bar--->
@@ -26,9 +17,7 @@
 
     <ul class="col-xs-12">
       <li style="float:left" class="name">Alexander Korn</li>
-      <li><a href='kornResume.pdf'>Resume</a></li>
-      <li><a href="#aboutme">About Me</a></li>
-      <li><a href="#Portfolio">Portfolio</a></li>
+      <li class='resume'><a href='documents/kornResume.pdf'>Resume</a></li>
       <!---<li><a href="#Contact">Contact</a></li> --->
     </ul>
   </div>
@@ -44,9 +33,9 @@
     </div>
     <div class="row">
       <div class="col-sm-8 text-justify">
-        <p>I am currently a senior at Gustavus Adolphus College in St. Peter, MN. I am pursuing my bachelors in Computer Science.</p>
+        <p id="Metext">I am currently a senior at Gustavus Adolphus College in St. Peter, MN. I am pursuing my bachelors in Computer Science.</p>
       </div>
-      <img id="Mephoto" src="Mephoto.jpg" alt="Picture of Me"></img>
+      <img id="Mephoto" src="documents/Mephoto.jpg" alt="Picture of Me"></img>
 
     </div>
 
@@ -59,27 +48,51 @@
 <div id="Portfolio" class="container-fluid">
   <div class="portfolio">
     <h2>Portfolio</h2>
-    <p><br>Will update with progress.</p>
   </div>
   <div id="pBtn" class="row">
     <div class="col-md-4">
       <button type="button" class="btn">
-	  <img src="http://placehold.it/150x150" alt="Project"></img>
+	  <a href="https://github.com/Kornstarch/GustavusInteractiveMap"><img class="img" src="documents/map.png" alt="Project"></img></a>
     </button>
     </div>
     <div class="col-md-4">
       <button type="button" class="btn">
-	  <img src="http://placehold.it/150x150"alt="Project"></img>
+	  <a href="https://github.com/Kornstarch/ChromeExtension"><img class="img" src="documents/chrome.png"alt="Chrome Extension"></img></a>
     </button>
     </div>
     <div class="col-md-4">
       <button type="button" class="btn">
-	  <img src="http://placehold.it/150x150" alt="Project"></img>
+	  <a href="https://github.com/Kornstarch/Dictionary"><img class="img" src="documents/dictionary-icon.png" alt="Dictionary"></img></a>
     </button>
     </div>
   </div>
 </div>
 <!---ENDPORTFOLIO--->
+
+<!---WRITING--->
+<div id="Portfolio" class="container-fluid">
+  <div class="portfolio">
+    <h2>My Writing</h2>
+  </div>
+  <div id="pBtn" class="row">
+    <div class="col-md-4">
+      <button type="button" class="btn">
+	  <a href='documents/kornNonFiction.pdf'><img class="img" src="documents/Memoir.png" alt="Memoir"></img></a>
+    </button>
+    </div>
+    <div class="col-md-4">
+      <button type="button" class="btn">
+	  <a href='documents/kornPoems.pdf'><img class="img" src="documents/Poems.png" alt="Poems"></img></a>
+    </button>
+    </div>
+    <div class="col-md-4">
+      <button type="button" class="btn">
+	  <a href='documents/kornFiction.pdf'><img class="img" src="documents/Fiction.png" alt="Fiction"></img></a>
+    </button>
+    </div>
+  </div>
+</div>
+<!---ENDWRITING-->-
 
 <!---CONTACT--->
 <div id="Contact" class="contact" class="container-fluid">

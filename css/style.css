@@ -1,36 +1,40 @@
+a{
+  color:white;
+}
+
 /*NavBar*/
 
 ul {
   list-style-type: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0;
+  text-transform: uppercase;
+  padding: 15px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #2c3e50;
+  letter-spacing: 1px;
 }
 
 li.name {
   color: white;
   dislpay: block;
   text-align: center;
-  padding: 8px;
-  font-size: 16px;
-  font-family: "Ubuntu", sans-serif;
+  padding: 5px;
+  font-size: 25px;
 }
 
 li {
   float: right;
 }
 
-li a {
-  border-radius: 12px;
+
+
+li.resume{
   color: white;
-  background-color: #222;
   display: block;
   text-align: center;
   padding: 8px;
-  text-decoration: none;
-  font-size: 12px;
-  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
 }
 
 li a:hover {
@@ -38,60 +42,49 @@ li a:hover {
   color: white;
   text-decoration: none;
   background-color: #111;
-  font-family: "Nunito Sans", sans-serif;
 }
 
 /*EndNavBar*/
 
 #Mephoto {
-  border: solid;
-  border-radius: 50px;
   margin: 25px;
   padding: 30px;
   float: right;
 }
 
-img {
-  border: solid;
-  border-radius: 25px;
-  padding: 50px;
-  float: left;
-}
-
 #Ah1 {
-  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
 }
 
 #aboutme {
   text-align: center;
-  font-size: 18px;
-  background-color: silver;
-  color: black;
+  font-size: 20px;
+  background-color: #18bc9c;
+  color: white;
   padding: 50px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .portfolio {
   padding: 50px;
   font-size: 20px;
+  text-transform: uppercase;
   text-align: center;
-  background-color: grey;
-  color: black;
-  font-family: "Nunito Sans", sans-serif;
+  color: #2c3e50;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #Portfolio {
-  padding: 50px;
   text-align: center;
-  background-color: grey;
+  background-color: white;
   color: black;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 
 .btn {
-  border-radius: 15px;
   margin: 0 auto;
-  padding: 50px 35px;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -101,16 +94,27 @@ img {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.img {
+    position: relative;
+    float: left;
+    width:  250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
 #pBtn {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
 }
 
 #Contact {
-  padding: 30px;
+  padding: 15px;
   text-align: center;
-  background-color: black;
-  color: grey;
+  background-color: #2c3e50;;
+  color: white;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -130,4 +134,3 @@ img {
 #git {
   padding: 20px;
 }
-
