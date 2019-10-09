@@ -1,111 +1,136 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Alex Korn Website</title>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-      <link rel="stylesheet" href="css/style.css">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'
+        rel='stylesheet prefetch'>
+  <link href="css/style.css"
+        rel="stylesheet">
 </head>
 <body>
   <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200|Ubuntu" rel="stylesheet">
-</head>
-
-<!--- Navigation Bar--->
-<div class="container-fluid">
-  <div class="row">
-
-    <ul class="col-xs-12">
-      <li style="float:left" class="name">Alexander Korn</li>
-      <li class='resume'><a href='documents/AlexKornResume2018.pdf'>Resume</a></li>
-      <!---<li><a href="#Contact">Contact</a></li> --->
-    </ul>
-  </div>
-</div>
-</div>
-
-<!--- End NavBar --->
-<!---ABOUT--->
-<div id="aboutme" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 id="Ah1">About Me</h1>
-    </div>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200|Ubuntu"
+          rel="stylesheet">
+  </head><!--- Navigation Bar=-->
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8 text-justify">
-        <p id="Metext">I am currently a Software Engineer working for Genesis10 at Ameriprise Financial.I am currently working on microservices to distribute data to clients used by Ameriprise Financial</p>
-      </div>
-      <img id="Mephoto" src="documents/Mephoto.jpg" alt="Picture of Me"></img>
-
+      <ul class="col-xs-12">
+        <li class="name"
+            style="float:left">Alexander Korn</li>
+        <li class='resume'>
+          <a href='documents/AlexKornResume2018.pdf'>Resume</a>
+        </li>
+        <div class="dropdown">
+          <button class="dropbtn"
+               onclick="myFunction()"
+               style="right:30">Dropdown</button>
+          <div class="dropdown-content"
+               id="myDropdown">
+            <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
+          </div>
+        </div><!---<li><a href="#Contact">Contact</a></li> =-->
+      </ul>
     </div>
-
-  </div>
-</div>
-</div>
-<!---ENDABOUT--->
-
-<!---PORTFOLIO--->
-<div id="Portfolio" class="container-fluid">
-  <div class="portfolio">
-    <h2>Portfolio</h2>
-  </div>
-  <div id="pBtn" class="row">
-    <div class="col-md-4">
-      <button type="button" class="btn">
-	  <a href="https://github.com/Kornstarch/GustavusInteractiveMap"><img class="img" src="documents/map.png" alt="Project"></img></a>
-    </button>
+  </div><!---Drop Down Button=-->
+  <div class="dropdown-menu">
+    <button class="dropbtn"
+         onclick="myFunction()"
+         style="float: right">DROPDOWN</button>
+    <div class="dropdown-content"
+         id="myDropdown">
+      <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
     </div>
-    <div class="col-md-4">
-      <button type="button" class="btn">
-	  <a href="https://github.com/Kornstarch/ChromeExtension"><img class="img" src="documents/chrome.png"alt="Chrome Extension"></img></a>
-    </button>
-    </div>
-    <div class="col-md-4">
-      <button type="button" class="btn">
-	  <a href="https://github.com/Kornstarch/Dictionary"><img class="img" src="documents/dictionary-icon.png" alt="Dictionary"></img></a>
-    </button>
-    </div>
-  </div>
-</div>
-<!---ENDPORTFOLIO--->
-
-<!---CONTACT--->
-<div id="Contact" class="contact" class="container-fluid">
-  <div class="row">
-    <h1 style="text:center" class="col-sm-12">Social Media</h1>
-    <div class="row" id="icons">
+  </div><!--- End NavBar =-->
+  <!---ABOUT=-->
+  <div class="container-fluid"
+       id="aboutme">
+    <div class="row">
       <div class="col-sm-12">
-
-        <span id="lnkdn" class="fa fa-lrg">
-          <a href="https://www.linkedin.com/in/alexander-korn-97510a11b/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-          </span>
-
-        <span id="git" class="fa fa-lrg">
-		<a href="https://github.com/Kornstarch" target="_blank"><i class=" fa fa-github fa-2x"></i></a>
-	</span>
-
+        <h1 id="Ah1">About Me</h1>
       </div>
-      <!---Possibly use this in Contact form-
-	<div class="row">
-		<div class="col-xs-6">
-			<form class="action_page.php">
-				Name:<br>
-				<input type="text" name="Name" value="Your Name"></input>
-				<br><br> E-mail:
-				<br>
-				<input type="text" name="email" value="E-mail"></input><br><br>
-				<textarea name="Message" rows="10" cols="30">Message me.</textarea>
-
---->
+      <div class="row">
+      <div class="col-sm-8 text-justify">
+        <p id="Metext">Currently employed as a Software Engineer at <u><a href="https://www.beckmancoulter.com/">Beckman Coulter</a></u></p>
+      </div><img alt="Picture of Me"
+           id="Mephoto"
+           src="documents/Mephoto.jpg"></div>
     </div>
-  </div>
-</div>
-
-<!---ENDCONTACT--->
-
-
-
+  </div><!---ENDABOUT=-->
+  <!---PORTFOLIO=-->
+  <div class="container-fluid"
+       id="Portfolio">
+    <div class="portfolio">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="row"
+         id="pBtn">
+      <div class="col-md-4">
+        <button class="btn"
+             type="button"><a href="https://github.com/Kornstarch/GustavusInteractiveMap"><img alt="Project"
+             class="img"
+             src="documents/map.png"></a></button>
+      </div>
+      <div class="col-md-4">
+        <button class="btn"
+             type="button"><a href="https://github.com/Kornstarch/ChromeExtension"><img alt="Chrome Extension"
+             class="img"
+             src="documents/chrome.png"></a></button>
+      </div>
+      <div class="col-md-4">
+        <button class="btn"
+             type="button"><a href="https://github.com/Kornstarch/Dictionary"><img alt="Dictionary"
+             class="img"
+             src="documents/dictionary-icon.png"></a></button>
+      </div>
+    </div>
+  </div><!---ENDPORTFOLIO=-->
+  <!---CONTACT=-->
+  <div class="container-fluid"
+       id="Contact">
+    <div class="row">
+      <h1 class="col-sm-12"
+          style="text:center">Social Media</h1>
+      <div class="row"
+           id="icons">
+        <div class="col-sm-12">
+          <span class="fa fa-lrg"
+               id="lnkdn"><a href="https://www.linkedin.com/in/alexander-korn-97510a11b/"
+             target="_blank"></Beckman></span> <span class="fa fa-lrg"
+               id="git"><a href="https://github.com/Kornstarch"
+             target="_blank"></a></span>
+        </div><!---Possibly use this in Contact form-
+        <div class="row">
+                <div class="col-xs-6">
+                        <form class="action_page.php">
+                                Name:<br>
+                                <input type="text" name="Name" value="Your Name"></input>
+                                <br><br> E-mail:
+                                <br>
+                                <input type="text" name="email" value="E-mail"></input><br><br>
+                                <textarea name="Message" rows="10" cols="30">Message me.</textarea>
+                              -->
+      </div>
+    </div>
+  </div><!---ENDCONTACT=-->
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
 </body>
-
 </html>
